@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url('../templates/img.jpg');
+  background: url('../templates/forgot.png');
   background-size: cover;
   background-position: center;
 }
