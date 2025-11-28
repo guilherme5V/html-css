@@ -6,6 +6,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  
 }
 
 body{
@@ -18,4 +19,71 @@ body{
   background-position: center;
   
 
+}
+.container{
+  width: 420px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 2);
+  border-radius: 8px;
+  color: white;
+  padding: 30px 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  backdrop-filter: blur(80px);
+}
+.container h1{
+  font-size: 36px;
+  text-align: center;
+}
+
+.inputs{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 2);
+  border-radius:  40px;
+  font-size: 16px;
+  color: white;
+  padding: 20px 45px 20px 20px;
+  
+}
+.input-user{
+  
+  margin : 20px 0px 20px 0px;
+  
+}
+.input-email{
+  margin: 20px 0px 20px 0px;
+}
+.inputs::placeholder{
+  color: white;
+  background-color: transparent;
+}
+.register {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin-top: 25px;
+}
+.register:hover{
+  transition: 0.5s;
+  border: solid 2px white;
+  background-color: transparent;
+}
+.main-form h1{
+  color: white;
+  
+}
+.main-form h1:hover{
+  transition: 0.5s;
+  color: black;
+
+  
 }
