@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  background: url('../templates/register.png');
+  background-size: cover;
+  background-position: center;
+}
+.title-main{
+  font-size: 36px;
+  color: white;
+  margin-top: -350px;
+  text-align: center;
+  
+}
+.link{
+  text-align: center;
+  margin-bottom: 70px;
+  height: 50px;
+  width: 450px;
+  max-width: 100%;
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: 20px;
+}
+.btn-download{
+  text-align: center;
+  background: #faf3d8;
+  color: #0a0e27;
+  
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btn-download:hover{
+  background-color: rgb(160, 87, 194);
+  
+}
+  
