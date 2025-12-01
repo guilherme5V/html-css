@@ -37,7 +37,7 @@ body {
 }
 .btn-download{
   text-align: center;
-  background: #faf3d8;
+  background: #9941d3;
   color: #0a0e27;
   
   font-family: inherit;
@@ -48,12 +48,25 @@ body {
   border-radius: 0.4em;
   box-shadow: 0.1em 0.1em;
   cursor: pointer;
-  height: 50px;
-  width: 200px;
+  height: 60px;
+  width: 170px;
   transition: background-color 0.3s, color 0.3s;
 }
 .btn-download:hover{
   background-color: rgb(160, 87, 194);
   
 }
+
+.btn-download::placeholder{
+  color: white;
+}
+.footer-text{
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 10px;
   
+}
+
